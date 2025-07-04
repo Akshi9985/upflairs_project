@@ -1,0 +1,276 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hi!",
+        "Hello",
+        "Hello!",
+        "Hey",
+        "Hey there",
+        "Hey!",
+        "Good morning",
+        "Good afternoon", 
+        "Good evening",
+        "Greetings",
+        "Is anyone there?",
+        "Anyone there?",
+        "How are you?",
+        "How are you doing?",
+        "What's up?",
+        "What's up",
+        "Sup"
+      ],
+      "responses": [
+        "Hello! How can I assist you with Upflairs services today?",
+        "Hi there! Looking for information about our courses or internships?",
+        "Greetings! Need support with our training programs or career guidance?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "company_information",
+      "patterns": [
+        "Tell me about Upflairs",
+        "What is Upflairs Private Limited?",
+        "Who are you guys?",
+        "What does Upflairs do exactly?",
+        "Is Upflairs an edtech company?",
+        "Where is Upflairs located?",
+        "About Upflairs",
+        "Company info",
+        "Background",
+        "Details about company",
+        "Upflairs details",
+        "What kind of company is Upflairs?",
+        "Upflairs overview"
+      ],
+      "responses": [
+        "Upflairs Pvt Ltd is an edtech company based in Jaipur offering cutting-edge training in AI, ML, IoT, DevOps, Cloud Computing, and Embedded Systems since 2021.",
+        "We're a skill development company specializing in hands-on training and internships with real-world projects in future technologies.",
+        "As an education technology innovator, we focus on immersive learning through AI, VR, and industry-aligned curriculum."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "internship_inquiry",
+      "patterns": [
+        "Do you offer internships?",
+        "Internship program details",
+        "How to apply for internship?",
+        "Internship application process",
+        "What internships are available?",
+        "Current internship openings",
+        "Are internships paid or unpaid?",
+        "Internship duration",
+        "Stipend information",
+        "Summer internship",
+        "Winter internship",
+        "Online internship options",
+        "Offline internship",
+        "Internship for students",
+        "Internship for freshers",
+        "Internship requirements"
+      ],
+      "responses": [
+        "We offer 2-6 month internships in Python, AI/ML, Full-Stack, Flutter, and Embedded Systems with stipends ranging from ₹5k-15k based on performance.",
+        "Our internship program includes: 1) Technical training 2) Live project work 3) Mentor guidance 4) Certification 5) Placement assistance",
+        "Internship applications are open year-round. Visit our careers page or email internships@upflairs.com with your resume and area of interest."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "course_catalog",
+      "patterns": [
+        "List of courses",
+        "Available training programs",
+        "What courses do you offer?",
+        "Current courses",
+        "AI courses",
+        "Machine learning training",
+        "Full stack development course",
+        "Cloud computing program",
+        "IoT training",
+        "Embedded systems course",
+        "Newest programs",
+        "Short term courses",
+        "Long term courses",
+        "Course duration",
+        "Course fees",
+        "Certification programs",
+        "Job ready courses"
+      ],
+      "responses": [
+        "Our flagship programs: 1) AI Engineer (6 months) 2) Full-Stack Developer (4 months) 3) Cloud Architect (3 months) 4) IoT Specialist (5 months) 5) DevOps Engineer (3 months)",
+        "We offer 40+ courses across: • Artificial Intelligence • Web/Mobile Development • Cloud & DevOps • Robotics & IoT • Cybersecurity • Data Science",
+        "New batches starting monthly for: Python Programming, Generative AI, React Native, AWS/Azure, Embedded Linux, and more."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "contact_details",
+      "patterns": [
+        "How to contact?",
+        "Phone number",
+        "Email address",
+        "Office location",
+        "Jaipur office address",
+        "Support contact",
+        "Admissions contact",
+        "Where are you located?",
+        "Visit address",
+        "Customer support number",
+        "HR contact",
+        "Technical support contact",
+        "Map location",
+        "Headquarters"
+      ],
+      "responses": [
+        "Primary contacts:\n📞 +91-XXXXXXXXXX\n📧 contact@upflairs.com\n📍 251 Mangalam Aangan, SEZ Road, Jaipur (Near Mahapura, Malviya Nagar)",
+        "Reach us at:\n• Website: www.upflairs.com\n• LinkedIn: Upflairs Pvt Ltd\n• Instagram: @upflairs\n• Email: support@upflairs.com\n• Phone: Mon-Sat, 10AM-7PM",
+        "For specific departments:\nAdmissions: apply@upflairs.com\nInternships: internship@upflairs.com\nPlacements: hr@upflairs.com\nTechnical: support@upflairs.com"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "operating_hours",
+      "patterns": [
+        "Working hours",
+        "Office timings",
+        "Opening time",
+        "Closing time",
+        "When are you open?",
+        "Weekend availability",
+        "Sunday open?",
+        "Holiday schedule",
+        "Support availability",
+        "Business hours",
+        "Administration timings"
+      ],
+      "responses": [
+        "⏰ Operational Hours:\nMonday-Saturday: 10:00 AM - 7:00 PM IST\nClosed on Sundays and public holidays",
+        "Our team is available:\nWeekdays: 10AM-7PM\nSaturdays: 10AM-5PM\n24/7 online portal access for registered students"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "feedback_submission",
+      "patterns": [
+        "Submit feedback",
+        "Leave review",
+        "Share experience",
+        "Rate services",
+        "Complaint",
+        "Suggestion",
+        "Testimonial",
+        "Google review",
+        "How to provide feedback?",
+        "Feedback form",
+        "Share comments",
+        "Report issue",
+        "Share suggestions"
+      ],
+      "responses": [
+        "We value your input! Please share your experience:\n1) Google Reviews\n2) LinkedIn\n3) Email: feedback@upflairs.com\n4) Student portal\n5) Direct message on social media",
+        "For feedback/suggestions:\n📝 Complete our feedback form at www.upflairs.com/feedback\n📧 Email: feedback@upflairs.com\nWe respond within 24-48 hours."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "appreciation",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks!",
+        "Thank you!",
+        "That's helpful",
+        "Helpful info",
+        "Great help",
+        "Awesome thanks",
+        "Perfect thanks",
+        "Thanks a lot",
+        "Thanks a ton",
+        "Much appreciated",
+        "I appreciate it"
+      ],
+      "responses": [
+        "You're welcome! Let me know if you need any other information about Upflairs.",
+        "Happy to assist! Feel free to ask about our courses, internships, or services anytime.",
+        "Glad I could help! Wishing you success in your learning journey with Upflairs."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Bye",
+        "Bye!",
+        "Goodbye",
+        "See you",
+        "See ya",
+        "Catch you later",
+        "Signing off",
+        "Have to go",
+        "Leaving now",
+        "Talk later",
+        "End chat",
+        "Close conversation"
+      ],
+      "responses": [
+        "Goodbye! Visit www.upflairs.com for latest updates on courses and internships.",
+        "See you soon! Connect with us on social media for daily tech updates.",
+        "Thanks for contacting Upflairs! Have a productive day ahead."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "How to enroll?",
+        "Admission procedure",
+        "Join course",
+        "Registration process",
+        "Application steps",
+        "Enrollment requirements",
+        "Documents needed",
+        "Eligibility criteria",
+        "Selection process",
+        "Start learning",
+        "Begin course",
+        "Sign up",
+        "How to join?",
+        "Get started"
+      ],
+      "responses": [
+        "3-Step Admission:\n1) Fill application form\n2) Schedule counseling session\n3) Complete payment\nRequired documents: ID proof, educational certificates, and passport photos",
+        "Enrollment options:\n• Online: www.upflairs.com/apply\n• Offline: Visit our Jaipur office\n• Call our admissions counselor at +91-XXXXXXXXXX",
+        "Our admission team will guide you through:\n1) Course selection\n2) Fee structure\n3) Payment plans\n4) Batch scheduling\nContact admissions@upflairs.com"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "placement_assistance",
+      "patterns": [
+        "Placement support",
+        "Job assistance",
+        "Hiring partners",
+        "Placement record",
+        "Career services",
+        "Interview preparation",
+        "Resume help",
+        "Companies hiring",
+        "Job guarantee",
+        "Internship to job",
+        "Placement percentage",
+        "Alumni network"
+      ],
+      "responses": [
+        "Our placement support includes:\n• 200+ hiring partners\n• Resume building\n• Mock interviews\n• Career fairs\n• 85% placement rate\n• Alumni network access",
+        "We provide:\n1) Profile matching\n2) Technical interview prep\n3) Soft skills training\n4) Company referrals\n5) Placement drives\nCurrent partners: TCS, Infosys, BYJU'S, and startups",
+        "Placement statistics:\n• 90% internship conversion\n• Average package: ₹3.5-6 LPA\n• Top roles: Developer, Analyst, Engineer\n• 1-year career support"
+      ],
+      "context": [""]
+    }
+  ]
+}
